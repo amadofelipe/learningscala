@@ -1,6 +1,6 @@
-class Main {
+object Main extends App{
 
-  def main(args: Array[String]) {
+  def mainMethod(args: Array[String]) = {
     val stringVal:String = "essa é uma string"
     var stringVar:String = "essa também é uma string"
     
@@ -12,6 +12,7 @@ class Main {
       if(fact(3) == 6) println("promissor!") else ()
       
   }
+  mainMethod(null);
   
   
   
